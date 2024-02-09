@@ -8,9 +8,9 @@
     <artifactId>PlayGround</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>GraphQL_Example</module>
-    </modules>
+    <!--    <modules>-->
+    <!--        <module>GraphQL_Example</module>-->
+    <!--    </modules>-->
 
     <name>springboot-backend</name>
     <description>Demo project for Spring Boot</description>
@@ -28,6 +28,30 @@
         <!-- lookup parent from repository -->
     </parent>
     <dependencies>
+
+        <dependency>
+            <groupId>javax.json</groupId>
+            <artifactId>javax.json-api</artifactId>
+            <version>1.1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>javax.json</artifactId>
+            <version>1.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-core -->
+        <dependency>
+            <groupId>tech.tablesaw</groupId>
+            <artifactId>tablesaw-core</artifactId>
+            <version>0.43.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-json -->
+        <dependency>
+            <groupId>tech.tablesaw</groupId>
+            <artifactId>tablesaw-json</artifactId>
+            <version>0.43.1</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>

@@ -1,7 +1,7 @@
-package com.raq.pg;
+package com.srisun.pg;
 
-import com.raq.pg.model.User;
-import com.raq.pg.repository.UserRepository;
+import com.srisun.pg.model.User;
+import com.srisun.pg.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

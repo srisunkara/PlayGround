@@ -1,9 +1,9 @@
-package com.raq.pg.controller;
+package com.srisun.pg.controller;
 
 import java.util.List;
 
-import com.raq.pg.model.User;
-import com.raq.pg.repository.UserRepository;
+import com.srisun.pg.model.User;
+import com.srisun.pg.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

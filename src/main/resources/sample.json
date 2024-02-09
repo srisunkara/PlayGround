@@ -1,0 +1,42 @@
+[
+  {
+    "customer_id": 1,
+    "name": "John Doe",
+    "age": 35,
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "salary": 85000,
+    "is_active": true
+  },
+  {
+    "customer_id": 2,
+    "name": "Jane Smith",
+    "age": 28,
+    "location": {
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "region": "na"
+    },
+    "salary": 72000,
+    "is_active": false
+  },
+  {
+    "customer_id": "abc123",
+    "name": "Michael Chang",
+    "age": 42,
+    "location": {
+      "city": "Tokyo",
+      "state": null,
+      "country": "Japan"
+    },
+    "salary": 102000,
+    "is_active": true,
+    "additional_info": {
+      "interests": ["sports", "travel", "technology"]
+    }
+  }
+]

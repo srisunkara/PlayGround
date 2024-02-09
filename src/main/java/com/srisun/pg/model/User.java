@@ -1,4 +1,4 @@
-package com.raq.pg.model;
+package com.srisun.pg.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
